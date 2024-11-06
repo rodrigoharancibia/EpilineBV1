@@ -30,7 +30,7 @@ mkdir "Sequences-$data_hoje"
 
 mv *.faa "Sequences-$data_hoje"
  
-./orthofinder -f  Sequences-$data_hoje
+./orthofinder -f  Sequences-$data_hoje -og
 
 
 
